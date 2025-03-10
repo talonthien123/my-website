@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLB Bóng đá</title>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          margin: 0;
+          padding: 0;
+      }
+
+    .title {
+          background-color: #8B0000;
+          background-size:cover;
+          color: white;
+          padding-top: 0.1em;
+          padding-bottom:0.1em;
+          text-align: center;
+      }
+    .subtitle{
+              padding-top: 0.1em;
+          padding-bottom:0.1em;
+    background-color:#404040;
+    color:white;
+    text-align: center;
+
+            }
+
+      nav ol {
+          list-style-type: none;
+          padding: 0;
+      }
+
+      nav ol li {
+          display: inline;
+          margin: 0 15px;
+      }
+
+      nav ol li a {
+          color: white;
+          text-decoration: none;
+      }
+
+      nav ol li a:hover {
+          text-decoration: underline;
+      }
+
+      section {
+          padding: 20px;
+          margin: 20px;
+          background-color: white;
+          border-radius: 8px;
+      }
+
+      footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 10px;
+          position: sticky !important;
+          width: 100%;
+          bottom: 0;
+      }
+      .container {
+            display: flex; /* Sử dụng Flexbox để sắp xếp các phần tử nằm ngang */
+            align-items: left; /* Căn chỉnh các phần tử theo chiều dọc (center) */
+        }
+
+        .container img {
+            width:45%; /* Kích thước tối đa của hình ảnh */
+            margin-left: 20px; /* Khoảng cách giữa hình ảnh và văn bản */
+            border: 8px double darkred;
+        }
+
+        .container p {
+            font-size: 110%; /* Kích thước chữ */
+
+        }
+    </style>
+</head>
+<body>
+
+    <header class="title">
+            <h1 style="font-size:3em">Chào mừng đến với CLB bóng đá trường THPT Đức Trí</h1>
+            <div class="subtitle">
+                <p>Nơi nuôi dưỡng giấc mơ bóng đá của bạn!</p>
+            </div>
+
+    </header>
+    <nav>
+<ul>
+               
+                <li><a href="#about">Giới Thiệu</a></li>
+                <li><a href="#1">Cơ sở vật chất</a></li>
+                <li><a href="#schedule">Lịch tập</a></li>
+                <li><a href="#membership">Tham gia câu lạc bộ</a></li>
+            </ul> 
+      </nav>
+
+
+    <section id="about">
+        <h2>Giới Thiệu</h2>
+        <div class="container">
+        <p>Câu Lạc Bộ Bóng Đá Trường THPT Đức Trí được thành lập với mục tiêu tạo ra một môi trường thể thao năng động, lành mạnh và đầy tính cống hiến cho các học sinh yêu thích bộ môn bóng đá. Với sự tham gia của các học sinh từ khối 10 đến khối 12, CLB là nơi không chỉ rèn luyện kỹ năng chơi bóng mà còn giúp phát triển tinh thần đồng đội, sự kiên trì và tính kỷ luật.</p>
+        <img src="https://cdn-media.sforum.vn/storage/app/media/wp-content/uploads/2023/06/hinh-nen-bong-da-thumb.jpg" alt="Hình ảnh">
+
+    </div>
+    </section>
+
+    <section id="1">
+        <h2>Cơ sở vật chất</h2>
+        <div class="container">
+        <p>Câu lạc bộ bóng đá được trang bị một sân cỏ nhân tạo rộng rãi, đạt tiêu chuẩn thi đấu, cùng với các thiết bị tập luyện hiện đại như bóng, lưới, và các dụng cụ hỗ trợ tập luyện khác. Đây là một không gian lý tưởng để các học sinh có thể thoải mái rèn luyện và phát triển tài năng bóng đá.</p>
+        <img src="https://dailysonepoxy.com/wp-content/uploads/2022/05/kich-thuoc-san-7.jpg" alt="Hình ảnh">
+
+    </div>
+    </section>
+         <section id="schedule">
+            <h2>Lịch Tập</h2>
+            <p>Các lớp học được chuẩn bị chu đáo với vô vàn lựa chọn lịch tập cho các thành viên của CLB.</p>
+            <ul>
+                <li><strong>Thứ Hai - Thứ Sáu:</strong> 6:00 AM - 9:00 AM</li>
+                <li><strong>Thứ Bảy:</strong> 9:00 AM - 12:00 AM</li>
+                <li><strong>Chủ Nhật:</strong> 4:00 PM - 7:30 PM</li>
+            </ul>
+        </section>
+         <section id="membership">
+            <h2>Tham Gia Câu Lạc Bộ</h2>
+            <p>Trở thành thành viên của chúng tôi ngay hôm nay để bắt đầu hành trình chinh phục đỉnh cao bơi lội!</p>
+            <form action="#">
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Số điện thoại:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <button type="submit">Đăng Ký Ngay</button>
+            </form>
+        </section>
+
+    <footer>
+        <p>&copy; 2025 Trang Web Của Tôi.</p>
+    </footer>
+
+</body>
+</html>
